@@ -39,7 +39,7 @@ int main(int argc, char *argv[]){
     else{
         path = argv[1];
         int server_socket, clientfd, info;  //creates socket
-        struct sockaddr_in servaddr;        //creates socket structre
+        struct sockaddr_in servaddr;        //creates socket structure
 
         server_socket = socket(AF_INET, SOCK_STREAM, 0);//creates the socket
         if( server_socket < 0 ){//verifies the socket creation
