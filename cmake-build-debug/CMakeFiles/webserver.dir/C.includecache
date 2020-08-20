@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/dolne/CLionProjects/webserver/webserver.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/socket.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+fcntl.h
+-
+string.h
+-
+libgen.h
+-
+pthread.h
+-
+
